@@ -26,8 +26,8 @@ The goals / steps of this project are the following:
 My project includes the following files:
 * model.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
-* model.h5 containing a trained convolution neural network
-* writeup_report.md or writeup_report.pdf summarizing the results
+* mdmodel.h5 containing a trained convolution neural network
+* writeup_report.md summarizing the results
 
 ####2. Submission includes functional code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing
@@ -100,9 +100,9 @@ I added a series of images to visualize the augmentation process
 
 
 
-After the collection process, i trained and tested the Model
-
+After the collection process, i trained and tested the Model. If the verification fail i eighter tuned the Model or addet more data points to the training set.
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set.
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 4.
+I used an adam optimizer so that manually training the learning rate wasn't necessary.
